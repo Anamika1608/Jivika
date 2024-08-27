@@ -13,13 +13,12 @@ function Navbar() {
     <nav className="bg-[#E4ECED] p-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
-          {/* <button onClick={toggleMenu} className="text-[#397A59] mr-4 lg:hidden">
-            {isOpen ? <X size={24} /> : <Menu size={24} />}
-          </button> */}
           <Link to="/">
-            <div className="text-[#397A59] text-2xl font-semibold cursor-pointer">
-              JIVIKA
-            </div>
+            <img 
+              src="/logo.svg" 
+              alt="logo" 
+              className="h-14 scale-[1.75] w-auto cursor-pointer"
+            />
           </Link>
         </div>
 
@@ -37,7 +36,7 @@ function Navbar() {
         </div>
 
         {/* Login button, stays the same */}
-        <div className="text-[#397A59] rounded-xl text-2xl font-semibold cursor-pointer">
+        <div className="text-[#397A59] rounded-xl text-3xl font-semibold cursor-pointer">
           Login
         </div>
       </div>
