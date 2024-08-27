@@ -13,9 +13,9 @@ function Navbar() {
     <nav className="bg-[#E4ECED] p-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
-          <button onClick={toggleMenu} className="text-[#397A59] mr-4 lg:hidden">
+          {/* <button onClick={toggleMenu} className="text-[#397A59] mr-4 lg:hidden">
             {isOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
+          </button> */}
           <Link to="/">
             <div className="text-[#397A59] text-2xl font-semibold cursor-pointer">
               JIVIKA

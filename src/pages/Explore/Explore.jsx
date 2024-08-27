@@ -23,11 +23,12 @@ const Explore = () => {
         modules={[Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide className='mb-10'>{About1}</SwiperSlide>
+       <SwiperSlide className='mb-10'>{About5}</SwiperSlide>
         <SwiperSlide>{About2}</SwiperSlide>
         <SwiperSlide>{About3}</SwiperSlide>
         <SwiperSlide>{About4}</SwiperSlide>
-        <SwiperSlide className='mb-10'>{About5}</SwiperSlide>
+        
+        <SwiperSlide className='mb-10'>{About1}</SwiperSlide>
       </Swiper>
 
       {/* {plants.map((plant, index) => (
