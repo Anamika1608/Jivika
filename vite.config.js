@@ -14,6 +14,7 @@ const manifestForPlugin = {
         src: '/J192.png',
         sizes: '192x192',
         type: 'image/png',
+        purpose: 'any'
       },
       {
         src: '/J512.png',
