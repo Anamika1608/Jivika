@@ -59,13 +59,13 @@ const manifestForPlugin = {
       },
       {
         src: '/s2.jpg',
-        sizes: '1080x2154',
+        sizes: '1080x2160',
         type: 'image/jpg',
         form_factor: 'narrow'
       },
       {
         src: '/s3.jpg',
-        sizes: '1080x2160',
+        sizes: '1080x2154',
         type: 'image/jpg',
         form_factor: 'narrow'
       }
