@@ -18,6 +18,9 @@ import AR2 from './components/AR/AR2.jsx'
 import AR3 from './components/AR/AR3.jsx'
 import AR4 from './components/AR/AR4.jsx'
 import AR5 from './components/AR/AR5.jsx'
+import AR6 from './components/AR/AR6.jsx'
+import AR8 from './components/AR/AR8.jsx'
+import AR9 from './components/AR/AR9.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements (
@@ -25,11 +28,11 @@ const router = createBrowserRouter(
       <Route path="" element={<HomePage />} />
       <Route path="explore-plants" element={<Explore />} />
       <Route path="medicinal-plants" element={<List />} />
-      <Route path="neem" element={<AR1 />} />
-      <Route path="hibiscus" element={<AR2 />} />
-      <Route path="aloevera" element={<AR3 />} />
-      <Route path="tulsi" element={<AR4 />} />
-      <Route path="lavender" element={<AR5 />} />
+      <Route path="aloevera" element={<AR1 />} />
+      <Route path="tulsi" element={<AR3 />} />
+      <Route path="hibiscus" element={<AR6/>} />
+      <Route path="random" element={<AR9/>} />
+      <Route path="curry-patta" element={<AR5 />} />
       
     </Route>
   )

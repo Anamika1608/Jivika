@@ -36,7 +36,8 @@ function Navbar() {
         </div>
 
         {/* Login button, stays the same */}
-        <div className="text-[#397A59] rounded-xl text-3xl font-semibold cursor-pointer">
+        <div className="text-[#397A59] rounded-xl text-3
+        xl font-semibold cursor-pointer">
           Login
         </div>
       </div>

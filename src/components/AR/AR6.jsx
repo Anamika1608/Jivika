@@ -42,7 +42,7 @@ const Scene = () => {
       <OrbitControls />
       <Suspense fallback={null}>
         {/* Increase the scale to make the model larger */}
-        <Model url="/AR6.glb" scale={[5, 5, 5]} />
+        <Model url="/AR12.glb" scale={[5, 5, 5]} />
       </Suspense>
     </Canvas>
   );
