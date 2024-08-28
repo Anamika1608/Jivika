@@ -50,6 +50,26 @@ const manifestForPlugin = {
         purpose: 'maskable',
       },
     ],
+    screenshots: [
+      {
+        src: '/s1.jpg',
+        sizes: '1080x2162',
+        type: 'image/jpg',
+        form_factor: 'narrow' 
+      },
+      {
+        src: '/s2.jpg',
+        sizes: '1080x2154',
+        type: 'image/jpg',
+        form_factor: 'narrow'
+      },
+      {
+        src: '/s3.jpg',
+        sizes: '1080x2160',
+        type: 'image/jpg',
+        form_factor: 'narrow'
+      }
+    ],
     theme_color: "#2196f3",
     background_color: "#2196f3",
     display: "standalone",
