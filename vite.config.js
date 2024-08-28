@@ -71,8 +71,8 @@ const manifestForPlugin = {
         form_factor: 'narrow'
       }
     ],
-    theme_color: "#2196f3",
-    background_color: "#2196f3",
+    theme_color: "#0e0f0e",
+    background_color: "#0e0f0e",
     display: "standalone",
     scope: "/",
     start_url: "/",
