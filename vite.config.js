@@ -1,7 +1,6 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
-import { register } from 'swiper/element'
 
 const manifestForPlugin = {
   registerType: 'prompt',
@@ -17,7 +16,7 @@ const manifestForPlugin = {
         type: 'image/png',
       },
       {
-        src: '/J512',
+        src: '/J512.png',
         sizes: '512X512',
         type: 'image/png',
         purpose: 'favicon'
@@ -34,11 +33,11 @@ const manifestForPlugin = {
         src: '/J144.png',
         sizes: '144x144',
         type: 'image/png',
-        pirpose: 'any',
+        purpose: 'any',
       },
 
       {
-        src: '/J256',
+        src: '/J256.png',
         sizes: '256x256',
         type: 'image/png',
         purpose: 'icon'
@@ -47,7 +46,7 @@ const manifestForPlugin = {
         src: '/maskable_icon.png',
         sizes: '259x259',
         type: 'image/png',
-        purpose: 'any maskable',
+        purpose: 'maskable',
       },
     ],
     theme_color: "#2196f3",

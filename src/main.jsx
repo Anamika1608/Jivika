@@ -10,16 +10,25 @@ import {
 
 } from "react-router-dom";
 
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js')
+      .then(registration => {
+        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+      })
+      .catch(error => {
+        console.error('ServiceWorker registration failed: ', error);
+      });
+  });
+}
+
 import HomePage from './pages/HomePage/HomePage.jsx'
 import Explore from './pages/Explore/Explore.jsx';
 import List from './components/Tour/List.jsx';
 import AR1 from './components/AR/AR1.jsx'
-import AR2 from './components/AR/AR2.jsx'
 import AR3 from './components/AR/AR3.jsx'
-import AR4 from './components/AR/AR4.jsx'
 import AR5 from './components/AR/AR5.jsx'
 import AR6 from './components/AR/AR6.jsx'
-import AR8 from './components/AR/AR8.jsx'
 import AR9 from './components/AR/AR9.jsx'
 
 const router = createBrowserRouter(
