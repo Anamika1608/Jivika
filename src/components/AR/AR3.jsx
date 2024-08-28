@@ -1,33 +1,6 @@
-// import React from 'react';
-// import { Canvas } from '@react-three/fiber';
-// import { OrbitControls, useGLTF } from '@react-three/drei';
-// import { Suspense } from 'react';
-
-// const Model = ({ url }) => {
-//   const { scene } = useGLTF(url);
-//   return <primitive object={scene} position={[0, 0, 0]} scale={[1, 1, 1]} />;
-// };
-
-// const Scene = () => {
-//   return (
-//     <Canvas>
-//       <ambientLight intensity={0.5} />
-//       <pointLight position={[10, 10, 10]} />
-//       <OrbitControls />
-//       <Suspense fallback={<span>Loading...</span>}>
-//         <Model url="/AR1.glb" />
-//       </Suspense>
-//     </Canvas>
-//   );
-// };
-
-// export default Scene;
-
-
-import React from 'react';
+import React, { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, useGLTF } from '@react-three/drei';
-import { Suspense } from 'react';
 
 const Model = ({ url, scale = [1, 1, 1] }) => {
   const { scene } = useGLTF(url);
@@ -41,12 +14,23 @@ const Scene = () => {
       <pointLight position={[10, 10, 10]} />
       <OrbitControls />
       <Suspense fallback={null}>
-        {/* Increase the scale to make the model larger */}
-        <Model url="/AR3.glb" scale={[5, 5, 5]} />
+        <Model url="/AR3.glb" scale={[3, 3, 3]} />
       </Suspense>
     </Canvas>
   );
 };
 
-export default Scene;
+const SceneWithTitle = () => {
+  return (
+    <div className="w-full h-screen flex flex-col">
+      <h1 className="text-3xl font-bold text-center p-4">
+      Interactive 3D Tulsi Model
+      </h1>
+      <div className="flex-grow">
+        <Scene />
+      </div>
+    </div>
+  );
+};
 
+export default SceneWithTitle;

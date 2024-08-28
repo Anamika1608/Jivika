@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 function List() {
   return (
-    <div>
+    <div> 
       <Link to='/aloevera'>
         <button className="mt-6 px-6 py-3  m-6 text-xl sm:text-2xl bg-[#162C22] text-white rounded-full hover:bg-opacity-75 transition duration-300">
           Aloevera
@@ -29,11 +29,11 @@ function List() {
         </button>
       </Link>
 
-      <Link to='/random'>
+      {/* <Link to='/random'>
         <button className="mt-6 px-6 py-3 m-6  text-xl sm:text-2xl bg-[#162C22] text-white rounded-full hover:bg-opacity-75 transition duration-300">
           random
         </button>
-      </Link>
+      </Link> */}
 
 
     </div>

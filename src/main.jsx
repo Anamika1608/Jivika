@@ -35,7 +35,7 @@ const router = createBrowserRouter(
       <Route path="curry-patta" element={<AR5 />} />
       
     </Route>
-  )
+  ) 
 )
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode> 
