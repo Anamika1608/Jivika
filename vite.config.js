@@ -52,18 +52,18 @@ const manifestForPlugin = {
     ],
 
     screenshots: [
-      {
-        src: '/s1.jpg',
-        sizes: '1080x2154',
-        type: 'image/jpg',
-        form_factor: 'narrow' 
-      },
-      {
-        src: '/s2.jpg',
-        sizes: '1080x2154',
-        type: 'image/jpg',
-        form_factor: 'narrow'
-      },
+      // {
+      //   src: '/s1.jpg',
+      //   sizes: '1080x2154',
+      //   type: 'image/jpg',
+      //   form_factor: 'narrow' 
+      // },
+      // {
+      //   src: '/s2.jpg',
+      //   sizes: '1080x2154',
+      //   type: 'image/jpg',
+      //   form_factor: 'narrow'
+      // },
       {
         src: '/s3.jpg',
         sizes: '1080x2154',
