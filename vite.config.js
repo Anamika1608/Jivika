@@ -50,16 +50,17 @@ const manifestForPlugin = {
         purpose: 'maskable',
       },
     ],
+
     screenshots: [
       {
         src: '/s1.jpg',
-        sizes: '1080x2162',
+        sizes: '1080x2154',
         type: 'image/jpg',
         form_factor: 'narrow' 
       },
       {
         src: '/s2.jpg',
-        sizes: '1080x2160',
+        sizes: '1080x2154',
         type: 'image/jpg',
         form_factor: 'narrow'
       },
