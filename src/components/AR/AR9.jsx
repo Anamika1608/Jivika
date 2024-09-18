@@ -14,7 +14,7 @@ const Scene = () => {
       <pointLight position={[10, 10, 10]} />
       <OrbitControls />
       <Suspense fallback={null}>
-        <Model url="/AR9.glb" scale={[3, 3, 3]} />
+        <Model url="/stamp2.glb" scale={[5, 5, 5]} />
       </Suspense>
     </Canvas>
   );
@@ -24,7 +24,7 @@ const SceneWithTitle = () => {
   return (
     <div className="w-full h-screen flex flex-col">
       <h1 className="text-3xl font-bold text-center p-4">
-      Interactive 3D Aloevera Model
+      Stamp2
       </h1>
       <div className="flex-grow">
         <Scene />

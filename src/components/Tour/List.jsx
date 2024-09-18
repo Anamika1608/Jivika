@@ -25,15 +25,15 @@ function List() {
 
       <Link to='/curry-patta'>
         <button className="mt-6 px-6 py-3  m-6  text-xl sm:text-2xl bg-[#162C22] text-white rounded-full hover:bg-opacity-75 transition duration-300">
-          Curry Patta
+          Stamp1
         </button>
       </Link>
 
-      {/* <Link to='/random'>
+      <Link to='/random'>
         <button className="mt-6 px-6 py-3 m-6  text-xl sm:text-2xl bg-[#162C22] text-white rounded-full hover:bg-opacity-75 transition duration-300">
-          random
+          Stamp2
         </button>
-      </Link> */}
+      </Link>
 
 
     </div>
