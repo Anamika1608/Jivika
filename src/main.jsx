@@ -30,6 +30,7 @@ import AR3 from './components/AR/AR3.jsx'
 import AR5 from './components/AR/AR5.jsx'
 import AR6 from './components/AR/AR6.jsx'
 import AR9 from './components/AR/AR9.jsx'
+import AR10 from './components/AR/AR10.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements (
@@ -42,6 +43,7 @@ const router = createBrowserRouter(
       <Route path="hibiscus" element={<AR6/>} />
       <Route path="random" element={<AR9/>} />
       <Route path="curry-patta" element={<AR5 />} />
+      <Route path="stamp" element={<AR10 />} />
       
     </Route>
   ) 
